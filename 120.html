@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+     var a = new Array();
+     var summ = 0;
+     p = prompt("количество строк: ");
+     for (let i = 0; i < p; ++i){
+         a[i] = prompt("Введите строку:");
+         for (let ii = 0; ii < a[i].length; ++ii){
+            if (a[i].charAt(ii) == "а") ++summ;
+         }
+     }
+
+     alert(summ);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+
+

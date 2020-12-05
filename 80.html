@@ -1,0 +1,30 @@
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       console.log("ax^2 + bx + c = 0");
+       let a = 5;
+       let b = 56;
+       let c = 1;
+       let D = Math.pow(b, 2) - 4*a*c;
+       console.log(D);
+       if (!(D < 0)){
+           if (D > 0){
+                alert ("первый корень: " + ((-b) + Math.sqrt(D))/2 + ";   второй корень: " + ((-b) - Math.sqrt(D))/2);
+           }
+           else{
+            alert ("корень: " + ((-b))/2 );
+           }
+       }
+       else{
+           alert ("нет конрей");
+       }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
